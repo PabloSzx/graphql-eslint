@@ -1,5 +1,11 @@
 # @graphql-eslint/eslint-plugin
 
+## 1.0.2
+
+### Patch Changes
+
+- 6b5b90b: graphql-js migrate to .ts, fix links
+
 ## 1.0.1
 
 ### Patch Changes
@@ -27,11 +33,10 @@
 - 61251e7: BREAKING CHANGE: Remove deprecated rule `validate-against-schema`.
 
   ### BREAKING CHANGE: Remove deprecated rule `validate-against-schema`.
-  
+
   If you are using `validate-against-schema`, please remove it and specify the exact rules that you need.
-  
-  As a drop-in replacement for the whole set of rules we had in `validate-against-schema`, you can use this: 
-  
+
+  As a drop-in replacement for the whole set of rules we had in `validate-against-schema`, you can use this:
 
 ```
       "@graphql-eslint/executable-definitions": "error",
